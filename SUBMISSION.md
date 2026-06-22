@@ -26,8 +26,8 @@ Flowboard is a Kanban-style task management app built with React, TypeScript, an
 
 | Resource              | URL |
 | --------------------- | --- |
-| **Live App**          |     |
-| **GitHub Repository** |     |
+| **Live App**          | https://kanban-flowboard-pante008.netlify.app |
+| **GitHub Repository** | https://github.com/pante008/Kanban_task_board |
 
 
 ---

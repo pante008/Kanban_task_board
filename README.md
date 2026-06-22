@@ -6,9 +6,7 @@ A polished, full-featured Kanban task board built for the Next Play Games intern
 
 ## Live Demo
 
-> **Deploy to Vercel/Netlify and add your URL here before submitting.**
-
-`https://your-app.vercel.app`
+**https://kanban-flowboard-pante008.netlify.app**
 
 ## Features
 
@@ -77,13 +75,12 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173)
 
-### 5. Deploy (Vercel recommended)
+### 5. Deploy (Netlify)
 
-```bash
-npm run build
-```
+Push to GitHub, then either:
 
-Push to GitHub, then import the repo in [Vercel](https://vercel.com). Add the same environment variables in the Vercel project settings.
+- **Netlify CLI:** `npx netlify deploy --prod` (after `netlify login` and setting env vars)
+- **Netlify Dashboard:** Import the GitHub repo and add `VITE_SUPABASE_URL` + `VITE_SUPABASE_ANON_KEY` in Site settings → Environment variables
 
 ## Database Schema
 
